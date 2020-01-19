@@ -13,5 +13,7 @@ fi
 # Customize to your needs...
 setopt No_Beep
 eval "$(starship init zsh)"
-
+PATH+=":/mnt/c/Users/itsje/AppData/Local/VSCode/bin"
 export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+
+alias open="/mnt/c/Windows/explorer.exe"
